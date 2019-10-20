@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'npm install -g yarn' 
                 sh 'yarn' 
-                sh 'build.sh' 
+                sh 'yarn build' 
             }
         }
     }
